@@ -140,7 +140,6 @@ public class Decryptor {
 
         StringBuilder solution = new StringBuilder();
 
-        // TODO
         for(int i = 0; i < toDecrypt.length; i++){
             solution.append(cypher.get(toDecrypt[i]));
         }
