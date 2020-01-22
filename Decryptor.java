@@ -25,7 +25,7 @@ import java.util.HashMap;
  * @author ...
  * @author ...
  */
-public class DecryptorSkeleton {
+public class Decryptor {
     public static void main(String[] args) {
         int[] toDecrypt = {
                 101001, 1001101, 1010011, 11010, 10, 10000000, 1001100, 1101011, 11,
