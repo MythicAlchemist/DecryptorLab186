@@ -22,7 +22,7 @@ import java.util.HashMap;
  * Place your @author tags here.
  * @author First Last : netid@iastate.edu
  * @author ...
- * @author ...
+ * @author Ben Stroup : bstroup@iastate.edu
  * @author Andrew Deick : adeick@iastate.edu
  */
 public class Decryptor {
