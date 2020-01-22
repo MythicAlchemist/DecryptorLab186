@@ -23,7 +23,7 @@ import java.util.HashMap;
  * @author First Last : netid@iastate.edu
  * @author ...
  * @author ...
- * @author ...
+ * @author Andrew Deick : adeick@iastate.edu
  */
 public class Decryptor {
     public static void main(String[] args) {
@@ -141,6 +141,9 @@ public class Decryptor {
         StringBuilder solution = new StringBuilder();
 
         // TODO
+        for(int i = 0; i < toDecrypt.length; i++){
+            solution.append(cypher.get(toDecrypt[i]));
+        }
 
         solution.append('!');
         return solution.toString();
