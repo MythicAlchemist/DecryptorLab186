@@ -59,6 +59,15 @@ public class Decryptor {
      */
     public static void convertBinaryArrayToDecimalArray(int[] toDecrypt) {
         // TODO
+        for(int i = 0; i < toDecrypt.length; i++){
+            int decimal = 0;
+            for (int j = 1; j <= 8; j++){
+                if((toDecrypt[i] % (Math.pow(10,j))/ Math.pow(10, ( j - 1 ) ) ) == 1 ){
+                    decimal += Math.pow(2, j - 1);
+                }
+            }
+            toDecrypt[i] = decimal;
+        }
     }
 
 
