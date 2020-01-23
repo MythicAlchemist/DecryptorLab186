@@ -20,7 +20,7 @@ import java.util.HashMap;
  * language as opposed to C (The C solution for this is literally like 8x more complex).
  *
  * Place your @author tags here.
- * @author First Last : netid@iastate.edu
+ * @author Thomas McCoy : tmccoy1@iastate.edu
  * @author ...
  * @author Ben Stroup : bstroup@iastate.edu
  * @author Andrew Deick : adeick@iastate.edu
