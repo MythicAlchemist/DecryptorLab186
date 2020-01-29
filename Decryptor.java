@@ -80,22 +80,16 @@ public class Decryptor {
      *
      * @param toDecrypt - The array to be decoded.
      */
-public static void shiftArrayValues(int[] toDecrypt) {
+    public static void shiftArrayValues(int[] toDecrypt) {
     	
     	
-		for (int i = 0; i < toDecrypt.length ; i++) {
+    	for (int i = 0; i < toDecrypt.length ; i++) {
     		toDecrypt[i] = i % 3 == 0 ? toDecrypt[i] - 1 :
-    						i % 3 == 1 ? toDecrypt[i] - 2 : toDecrypt[i] - 3;
+    					   i % 3 == 1 ? toDecrypt[i] - 2 : toDecrypt[i] - 3;
 		}
     		
-		}
+	}
     		
-    	
-    		
-	
-
-
-
 
     /**
      * STEP 3: COMPLETE THIS METHOD. ONCE COMPLETED, HAVE THE TEAM MEMBER
